@@ -150,12 +150,17 @@ text-align:center;
     width:360px;
     margin:0 auto;
 }
+.cards .logoImg{
+    position: relative;
+    top:70px; 
+     left:30px;
+}
 .card{
     /* border:2px solid blue; */
     margin-top:50px;
-    width:350px;
+    width:320px;
     height:220px;
-    margin-left:3px;
+    margin-left:20px;
     background:hsl(219, 30%, 18%);
 }
 .card img{
@@ -186,4 +191,13 @@ text-align:center;
 }
 .card3 .text h4:nth-child(1){
     margin-left:-20px;
+}
+
+/* ################# float card ###################### */
+
+.float{
+    border: 2px solid red;
+    height:250px;
+    width: 350px;
+    margin:10px;
 }
