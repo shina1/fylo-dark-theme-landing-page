@@ -364,3 +364,12 @@ padding:10px;
     margin:20px;
 }
 
+/* ###################### desktop view stytle ############################# */
+
+@media screen and (min-width:992px){
+main{
+    max-width: 1440px;
+    border: 2px solid red;
+}
+}
+
